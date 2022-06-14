@@ -1,0 +1,16 @@
+.testimonial card{
+    text-align: center;
+}
+.testimonial .name{
+    text-align: center;
+}
+.testimonial{
+    margin-top: 10%;
+}
+.testimonial h1{
+    display: flex;
+    justify-content: center;
+    font-weight: 600;
+    color: #4285F4;
+    padding-bottom: 5%;
+}
