@@ -1,9 +1,25 @@
-import React from 'react'
+import React, {useEffect} from 'react'
+import Divider from '../divider'
+import Aos from 'aos';
+import "aos/dist/aos.css";
+import SocialMedia from '../Social-media';
+import Footer from '../Footer';
+import { Link } from 'react-router-dom';
 
 const About = () => {
+useEffect(() => {
+      Aos.init({
+            duration : 200
+      });
+      }, [])
   return (
-    <div>
+      <>
+      <Divider/>
+    <div className='container'>
+      
         <h1 className='my-4 about'>About Us</h1>
+        <button type="button" className="btn btn-md btn-outline-primary"><Link to='/' style={{color:"black", textDecoration:"none"}}>Back</Link></button>
+        {/* <button><Link to='/'>Back</Link></button> */}
         <div className="flex-container row rev">
           <div className="flex-item-left col-lg-6 item1" data-aos="fade-up" data-aos-duration="2000">
             <h2>How V360 Tech organizes Diamond Industry information</h2>
@@ -80,7 +96,7 @@ const About = () => {
                 </a> 
           </div>
           <div className="flex-item-left col-lg-6 item6" data-aos="fade-up" data-aos-duration="2000">
-            <h2>Protect your privacy</h2>
+            <h2 style={{textDecoration:"none"}}><Link to='/privacy'>Protect your privacy</Link></h2>
             <p className='my-4'>
             Guided by our privacy principles, we create tools and explanations to help you understand how we use data to make Search more helpful to you. For example, using your search history, V360 Tech can autocomplete your searches. 
             <br/>When you use our products you trust us with your data, and it’s our responsibility to keep your data private, safe, and secure. 
@@ -116,7 +132,10 @@ const About = () => {
             </p>
           </div>
       </div>
+      <div style={{marginTop:"50px"}}><SocialMedia/></div>
+      <Footer/>
     </div>
+    </>
   )
 }
 

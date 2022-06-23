@@ -13,7 +13,7 @@
 }
 .landing{
     margin-bottom: 3%;
-    margin-top: 3%;
+    margin-top: 10%;
 }
 .flex-item-left{
     padding-left: 30px;
@@ -61,9 +61,13 @@
   }
 @media screen and (max-width: 480px) {
     .service {
-      font-size: 15px;
+      font-size: 19px;
     }
     .location{
         font-size: 20px;
+    }
+    .landing{
+      margin-top: 25%;
+      margin-bottom: 10%;
     }
   }

@@ -7,7 +7,7 @@ const Feature = () => {
     <h1 className='my-4'>Our Services</h1>
     {data.map((item)=>{
         return(
-            <div key={item.title} className="card col-md-3 mx-3 card-style my-3 feature" data-aos="zoom-out"  data-aos-duration="2000">
+            <div key={item.title} className="card col-lg-3 mx-3 card-style my-3 feature" data-aos="zoom-out"  data-aos-duration="2000">
             <img src={item.image} className="card-img-top" alt="..."/>
                 <div className="card-body">
                     <h3 className="card-title text-center">{item.title}</h3>

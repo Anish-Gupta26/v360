@@ -1,12 +1,19 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 import './contact.css'
+import Aos from 'aos';
+import "aos/dist/aos.css";
 
 const Contact = () => {
+    useEffect(() => {
+        Aos.init({
+          duration : 200
+        });
+      }, [])
   return (
-    <div className='flexi-container' id='contact'>
+    <div className='flexi-container' id='contact' data-aos="fade-up" data-aos-duration="2000">
          <div className='flexi-item-left'>
-    <div className="contact-form-wrapper d-flex justify-content-center" data-aos="zoom-in"  data-aos-duration="2000">
-        <form action="https://formsubmit.co/sales@v360.studio" method="POST" className="contact-form">
+    <div className="contact-form-wrapper d-flex justify-content-center">
+        <form action="https://formsubmit.co/anishgupta2610@gmail.com" method="POST" className="contact-form">
         <h1 className="title">Contact us</h1>
         <p className="description text-center">Feel free to contact us if you need any assistance.
         </p>

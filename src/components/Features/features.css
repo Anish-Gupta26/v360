@@ -62,4 +62,12 @@
     .features{
         justify-content: center;
     } 
+
+}
+@media only screen and (max-width:576px) {
+    .features{
+        justify-content: center;
+        padding: 40px;
+    } 
+
 }
