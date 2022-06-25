@@ -1,6 +1,8 @@
 import React from 'react'
 import './features.css'
 import { data } from './feature-data'
+import { Link } from "react-router-dom";
+
 const Feature = () => {
   return (
     <div className='row features my-5' id='services'>
@@ -13,7 +15,7 @@ const Feature = () => {
                     <h3 className="card-title text-center">{item.title}</h3>
                     <h6 className="card-text text-center">{item.description}</h6>
                     <div className='service-button-head'>
-                    <button className='service-button'>TRY IT</button>
+                    <Link to={item.Linkpage}><button className='service-button'>Try It</button></Link>
                     </div>
                 </div>
             </div>

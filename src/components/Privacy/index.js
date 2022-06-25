@@ -18,7 +18,7 @@ const Privacy = () => {
         </div>
         {data.map((item)=>{
         return(
-                <div key={item.id} className="privacy-flex-container row" >
+            <div key={item.id} className="privacy-flex-container row" >
                 <div className='privacy-flex-container-left col-lg-6'>
                     <h2><span className='blue-text'>{item.blueTitle}</span>{item.title}</h2>
                 </div>

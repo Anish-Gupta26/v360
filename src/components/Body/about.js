@@ -19,7 +19,6 @@ useEffect(() => {
       
         <h1 className='my-4 about'>About Us</h1>
         <button type="button" className="btn btn-md btn-outline-primary"><Link to='/' style={{color:"black", textDecoration:"none"}}>Back</Link></button>
-        {/* <button><Link to='/'>Back</Link></button> */}
         <div className="flex-container row rev">
           <div className="flex-item-left col-lg-6 item1" data-aos="fade-up" data-aos-duration="2000">
             <h2>How V360 Tech organizes Diamond Industry information</h2>

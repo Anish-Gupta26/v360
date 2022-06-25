@@ -1,19 +1,15 @@
 import './App.css';
 import Body from './components/Body';
-// import Divider from './components/divider';
-// import Footer from './components/Footer';
-// import Feature from './components/Features';
-// import Testimonial from './components/testimonials';
 import About from './components/Body/about';
-// import Contact from './components/Contact';
-// import SocialMedia from './components/Social-media';
 import {
   BrowserRouter as Router,
   Route,
   Routes
 } from "react-router-dom";
-// import Header from './components/Navbar';
 import Privacy from './components/Privacy';
+import Phtography from './components/Features/photography';
+import Logistics from './components/Features/logistics';
+import Anlytics from './components/Features/analytics';
 
 function App() {
   return (
@@ -22,6 +18,9 @@ function App() {
       <Route path="/" element={<Body/>}/>
       <Route path="/about" element={<About/>}/>
       <Route path='/privacy' element={<Privacy/>}/>
+      <Route path='/photography' element={<Phtography/>}/>
+      <Route path='/logistics' element={<Logistics/>}/>
+      <Route path='/analytics' element={<Anlytics/>}/>
       </Routes> 
       </Router>
   );

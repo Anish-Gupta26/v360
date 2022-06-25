@@ -1,3 +1,7 @@
+#collasible-nav-dropdown{
+  color: black;
+  font-weight: 500;
+}
 .flex-container{
     padding-top: 15%;
     color: black;
@@ -13,7 +17,7 @@
 }
 .landing{
     margin-bottom: 3%;
-    margin-top: 10%;
+    margin-top: 1%;
 }
 .flex-item-left{
     padding-left: 30px;
@@ -35,10 +39,6 @@
 {
     border-left: 6px solid #F4B400;
 }
-/* .img {
-    max-width: 100%;
-    height: 400px;
-} */
 
 @media screen and (max-width: 720px) {
     .service {
@@ -67,7 +67,7 @@
         font-size: 20px;
     }
     .landing{
-      margin-top: 25%;
+      margin-top: 20%;
       margin-bottom: 10%;
     }
   }

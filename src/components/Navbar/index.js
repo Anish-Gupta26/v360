@@ -3,37 +3,42 @@ import {
   Container,
   Navbar,
   Nav,
+  NavDropdown,
 } from "react-bootstrap";
 import { Link } from "react-router-dom";
-// import Divider from '../divider'
+import Divider from '../divider'
+import '../Body/body.css'
 
 const Header = () => {
   return (
     <header>
-      <Navbar variant="dark" collapseOnSelect expand="lg" className="fixed-top justify-content-center p-3" style={{backgroundColor:"#262626"}} >
+      <Navbar variant="light" collapseOnSelect expand="lg" className="justify-content-center p-3" >
         <Container>
-          <Navbar.Brand href="/">V360° Studio</Navbar.Brand>
+          <Navbar.Brand href="/" style={{color:"black", fontWeight:"600"}}>V360° Studio</Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-2">
-                <Nav.Link href='#services'>
-                <i className="fa-solid fa-screwdriver-wrench"></i>Services
-                </Nav.Link>
+                <NavDropdown title="Services" id="collasible-nav-dropdown">
+                {/* <i className="fa-solid fa-screwdriver-wrench"></i> */}
+                  <NavDropdown.Item href="/photography">Photography</NavDropdown.Item>
+                  <NavDropdown.Item href="/logistis">Logistics</NavDropdown.Item>
+                  <NavDropdown.Item href="/analytics">Analytics</NavDropdown.Item>
+                </NavDropdown> 
                 <Nav.Link href=''>
-                  <Link to='/about' style={{color:"#FFFFFF8C", textDecoration:"none"}}>
+                  <Link to='/about' style={{color:"black", textDecoration:"none"}}>
                 <i className="fas fa-user"></i> About
                 </Link>
                 </Nav.Link>
-                <Nav.Link href='#contact'>
+                <Nav.Link href='#contact' style={{color:"black"}}>
                   <i className="fa-solid fa-phone"></i> Contact
-                </Nav.Link>
+                </Nav.Link> 
             </Nav>
           </Navbar.Collapse>
         </Container>
       </Navbar>
-      {/* <div>
+      <div className="navbar-divider">
       <Divider/>
-      </div> */}
+      </div>
     </header>
   );
 };
