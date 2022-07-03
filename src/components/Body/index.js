@@ -25,9 +25,8 @@ const Body = () => {
         <img data-aos="fade-down" data-aos-duration="2000" src={image1} className="img-fluid pos landing" alt=""/>
         <h1 className='service' data-aos="fade-up" data-aos-duration="2000">STUDIO | STOCK ANALYSIS | LOGISTICS</h1>
         <div className='location' data-aos="fade-up" data-aos-duration="2000"><h3>NewYork <i className="fa-solid fa-location-dot"></i></h3></div>
-        <br/><br/>
-        <h1 data-aos="fade-up" data-aos-duration="2000">Our mission is to organise the Diamond Industry information and make it easily accessible and useful.</h1>
-        
+        <br/>
+        <h1 data-aos="fade-up" data-aos-duration="1000">Our mission is to organise the Diamond Industry information and make it easily accessible and useful.</h1>
         <Feature/>
         <Testimonial/>
         <Contact/>

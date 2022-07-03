@@ -17,7 +17,6 @@
 }
 .landing{
     margin-bottom: 3%;
-    margin-top: 1%;
 }
 .flex-item-left{
     padding-left: 30px;
@@ -67,7 +66,6 @@
         font-size: 20px;
     }
     .landing{
-      margin-top: 20%;
-      margin-bottom: 10%;
+      margin-bottom: 8%;
     }
   }

@@ -13,7 +13,7 @@ const Contact = () => {
     <div className='flexi-container' id='contact' data-aos="fade-up" data-aos-duration="2000">
          <div className='flexi-item-left'>
     <div className="contact-form-wrapper d-flex justify-content-center">
-        <form action="https://formsubmit.co/anishgupta2610@gmail.com" method="POST" className="contact-form">
+        <form action="https://formsubmit.co/info@v360.studio" method="POST" className="contact-form">
         <h1 className="title">Contact us</h1>
         <p className="description text-center">Feel free to contact us if you need any assistance.
         </p>
