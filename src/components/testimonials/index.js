@@ -1,6 +1,7 @@
 import React from 'react';
 import './testimonial.css';
 const Testimonial = () => {
+    const userImg = require('../../assets/images/user.png')
   return (
         <div className="testimonial py-4 my-4">
             <h1 className='my-4'>Testimonial</h1>
@@ -9,8 +10,8 @@ const Testimonial = () => {
                 <div className="row" >
                 <div className="col-md-4 review" data-aos="flip-right"  data-aos-duration="2000" >
                     <img className="rounded-circle shadow-1-strong mb-4 pic"
-                    src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(1).webp" alt="avatar"
-                    style={{width: "150px", display:"flex", margin:"auto"}} />
+                    src={userImg} alt="avatar"
+                    style={{width: "100px", display:"flex", margin:"auto"}} />
                     <h5 className="mb-3 name">Divyang Riziya</h5>
                     <p className="text-muted">
                     <i className="fas fa-quote-left pe-2"></i>
@@ -27,8 +28,8 @@ const Testimonial = () => {
 
                 <div className="col-md-4 review" data-aos="flip-up" data-aos-duration="2000">
                     <img className="rounded-circle shadow-1-strong mb-4 pic"
-                    src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(32).webp" alt="avatar"
-                    style={{width: "150px", display:"flex", margin:"auto"}} />
+                    src={userImg} alt="avatar"
+                    style={{width: "100px", display:"flex", margin:"auto"}} />
                     <h5 className="mb-3 name">Melvin F</h5>
                     <p className="text-muted">
                     <i className="fas fa-quote-left pe-2"></i>
@@ -45,8 +46,8 @@ const Testimonial = () => {
 
                 <div className="col-md-4 review" data-aos="flip-left" data-aos-duration="2000">
                     <img className="rounded-circle shadow-1-strong mb-4 pic"
-                    src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(10).webp" alt="avatar"
-                    style={{width: "150px", display:"flex", margin:"auto"}} />
+                    src={userImg} alt="avatar"
+                    style={{width: "100px", display:"flex", margin:"auto"}} />
                     <h5 className="mb-3 name">avr g</h5>
                     {/* <p>Photographer</p> */}
                     <p className="text-muted">

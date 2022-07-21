@@ -9,7 +9,7 @@ import Divider from '../divider'
 import '../Body/body.css'
 
 const Header = () => {
-  const image1 = require('../../assets/images/LOGO.png')
+  const image1 = require('../../assets/images/LOGO2.png')
   return (
     <header>
       <div className="navbar-divider">
@@ -17,7 +17,7 @@ const Header = () => {
       </div>
       <Navbar variant="light" collapseOnSelect expand="lg" className="justify-content-center p-3" >
         <Container>
-        <Navbar.Brand href="/" style={{color:"black", fontWeight:"600"}}><img src={image1} alt="V360" style={{height:"80px", paddingBottom:"15px"}}/></Navbar.Brand>
+        <Navbar.Brand href="/" style={{color:"black", fontWeight:"600"}}><img src={image1} alt="V360" style={{height:"60px", paddingBottom:"15px"}}/></Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-2">
@@ -44,6 +44,13 @@ const Header = () => {
                 <i className="fas fa-user"></i> About
                 </Link>
                 </Nav.Link>
+
+                <Nav.Link href=''>
+                  <Link to='/announcement' style={{color:"black", textDecoration:"none"}}>
+                <i className="fas fa-bullhorn"></i> Announcement
+                </Link>
+                </Nav.Link>
+
                 <Nav.Link href='#contact' style={{color:"black"}}>
                   <i className="fa-solid fa-phone"></i> Contact
                 </Nav.Link> 

@@ -10,6 +10,7 @@ import Privacy from './components/Privacy';
 import Phtography from './components/Features/photography';
 import Logistics from './components/Features/logistics';
 import Anlytics from './components/Features/analytics';
+import Announcement from './components/announcement';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
       <Route path='/photography' element={<Phtography/>}/>
       <Route path='/logistics' element={<Logistics/>}/>
       <Route path='/analytics' element={<Anlytics/>}/>
+      <Route path='/announcement' element={<Announcement/>}/>
       </Routes> 
       </Router>
   );
