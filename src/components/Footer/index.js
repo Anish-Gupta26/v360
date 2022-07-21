@@ -4,7 +4,7 @@ import './footer.css'
 const Footer = () => {
   return (
       <>
-          <div className='footer'>Copyright &copy; V360 Studio 2022</div>
+          <div className='footer'>Copyright &copy; D360 Studio 2022</div>
       </>
   )
 }

@@ -3,6 +3,7 @@ import Divider from '../divider'
 import { Link } from "react-router-dom";
 import Footer from '../Footer';
 import SocialMedia from '../Social-media';
+import './photography.css'
 
 const Phtography = () => {
   return (
@@ -29,6 +30,9 @@ const Phtography = () => {
                     </p>
                 </div>
         </div>
+        {/* <iframe title='anish' src='' class="responsive-iframe" scrolling="no" id="displayStone" frameborder="0"
+      style={{width: "100%",height: "70%",borderWidth: "0px"}}>
+      </iframe> */}
         <div style={{marginTop:"50px"}}><SocialMedia/></div>
         <Footer/>
     </div>
