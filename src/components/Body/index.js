@@ -10,6 +10,7 @@ import Footer from '../Footer';
 import Header from '../Navbar';
 import Contact from '../Contact';
 
+// This file is contains the layout of landing page
 const Body = () => {
   useEffect(() => {
     Aos.init({

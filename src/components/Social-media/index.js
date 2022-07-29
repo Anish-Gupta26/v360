@@ -1,5 +1,6 @@
 import React from 'react'
 import './social-media.css'
+//Social Media icons section
 const SocialMedia = () => {
   return (
     <div className="social-menu">

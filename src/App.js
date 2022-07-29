@@ -14,6 +14,7 @@ import Announcement from './components/announcement';
 
 function App() {
   return (
+    // Routes are used for making website multipage 
     <Router>
       <Routes>
       <Route path="/" element={<Body/>}/>

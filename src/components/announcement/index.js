@@ -1,59 +1,81 @@
-import React, {useEffect} from 'react'
-import Divider from '../divider'
-import Aos from 'aos';
+import React, { useEffect } from "react";
+import Divider from "../divider";
+import Aos from "aos";
 import "aos/dist/aos.css";
-import SocialMedia from '../Social-media';
-import Footer from '../Footer';
-import { Link } from 'react-router-dom';
+import SocialMedia from "../Social-media";
+import Footer from "../Footer";
+import { Link } from "react-router-dom";
 
 const Announcement = () => {
-useEffect(() => {
-      Aos.init({
-            duration : 200
-      });
-      }, [])
+  // AOS library is used for animation
+  // This file is contains the structure and content of announcement page
+  useEffect(() => {
+    Aos.init({
+      duration: 200,
+    });
+  }, []);
   return (
-      <>
-      <Divider/>
-    <div className='container'>
-      
-        <h1 className='my-4 about'>Announcement</h1>
-        <button type="button" className="btn btn-md btn-outline-primary"><Link to='/' style={{color:"black", textDecoration:"none"}}>Back</Link></button>
+    <>
+      <Divider />
+      <div className="container">
+        <h1 className="my-4 about">Announcement</h1>
+        <button type="button" className="btn btn-md btn-outline-primary">
+          <Link to="/" style={{ color: "black", textDecoration: "none" }}>
+            Back
+          </Link>
+        </button>
         <div className="flex-container row rev">
-          <div className="flex-item-left col-lg-6 item1" data-aos="fade-up" data-aos-duration="2000">
+          <div
+            className="flex-item-left col-lg-6 item1"
+            data-aos="fade-up"
+            data-aos-duration="2000"
+          >
             <h2>Email Domain changed to D360.tech</h2>
-            <h6 class="card-subtitle mb-2 text-muted">19/07/22</h6>
-            <p className='my-4'>
-            Hi,We would like to express our gratitude and sincere thanks for all the support and cooperation you have given us.
-
-We would like to inform you that as of today we have changed our domain to "d360.tech".
-<br/><br/>
-Moving forward, please direct all your emails to the new domain:<br/>
-Example:
-kalpesh@v360.studio changed to kalpesh@d360.tech <br/>
-sales@v360.studio changed to sales@d360.tech
-<br/><br/>
-All the links for 360° Videos and Photos on D360.tech have already been used for the last 4 months. So you do not need to make any changes on your side.
-
-Only change is the Email ID as mentioned above.
-<br/>
-Note: NO CHANGE for Company Name, Address, Phone Number or Shared Google Drive Links and 360° Video Links.
-<br/><br/>
-We understand that there will be questions/query about this announcement and we are more than happy to meet or have a quick call to clear any question.
-
-Old email domain is no longer valid for receiving email and any email sent to old domains(v360.studio) is not reaching us, so please update your contact book as soon as possible. Your attention and update on the above change are highly appreciated.
-<br/><br/>
-Sorry for any inconvenience caused. We look forward to continuing quick/reliable/secure 360° video/photography services and thank you for your continuous support!
+            <h6 className="card-subtitle mb-2 text-muted">19/07/22</h6>
+            <p className="my-4">
+              Hi,We would like to express our gratitude and sincere thanks for
+              all the support and cooperation you have given us. We would like
+              to inform you that as of today we have changed our domain to
+              "d360.tech".
+              <br />
+              <br />
+              Moving forward, please direct all your emails to the new domain:
+              <br />
+              Example: kalpesh@v360.studio changed to kalpesh@d360.tech <br />
+              sales@v360.studio changed to sales@d360.tech
+              <br />
+              <br />
+              All the links for 360° Videos and Photos on D360.tech have already
+              been used for the last 4 months. So you do not need to make any
+              changes on your side. Only change is the Email ID as mentioned
+              above.
+              <br />
+              Note: NO CHANGE for Company Name, Address, Phone Number or Shared
+              Google Drive Links and 360° Video Links.
+              <br />
+              <br />
+              We understand that there will be questions/query about this
+              announcement and we are more than happy to meet or have a quick
+              call to clear any question. Old email domain is no longer valid
+              for receiving email and any email sent to old domains(v360.studio)
+              is not reaching us, so please update your contact book as soon as
+              possible. Your attention and update on the above change are highly
+              appreciated.
+              <br />
+              <br />
+              Sorry for any inconvenience caused. We look forward to continuing
+              quick/reliable/secure 360° video/photography services and thank
+              you for your continuous support!
             </p>
           </div>
           <div className="flex-item-right col-lg-6 img">
-                {/* <a href='/' target='__blank'>  
+            {/* <a href='/' target='__blank'>  
                       <img src="" className="img-fluid pos" alt=""/>  
                 </a>  */}
           </div>
-      </div>
+        </div>
 
-      {/* <div className="flex-container row">
+        {/* <div className="flex-container row">
           <div className="flex-item-right col-lg-6 img">
                 <a href='/' target='__blank'>  
                       <img src='' className="img-fluid pos" alt=""/>  
@@ -150,12 +172,14 @@ Sorry for any inconvenience caused. We look forward to continuing quick/reliable
             To support a healthy ecosystem of fresh and useful diamond industry information, we help businesses of all sizes succeed and be found by others. We do this by sending new customers to small and large through our technology, or by connections such as listing business inventory. We don't charge to be in our listings, and we also provide free tools and resources to business owners to be successful.
             </p>
           </div> */}
-      {/* </div> */}
-      <div style={{marginTop:"50px"}}><SocialMedia/></div>
-      <Footer/>
-    </div>
+        {/* </div> */}
+        <div style={{ marginTop: "50px" }}>
+          <SocialMedia />
+        </div>
+        <Footer />
+      </div>
     </>
-  )
-}
+  );
+};
 
-export default Announcement
+export default Announcement;
