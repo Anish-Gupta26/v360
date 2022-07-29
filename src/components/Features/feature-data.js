@@ -2,8 +2,8 @@ export const data = [
     {
         image: require("../../assets/images/blue.png"),
         Linkpage: '/photography',
-        title: "V360° Photography Service",
-        description:"Top Quality and fastest V360° Photography Service in New York. Same Day Service for upto 700 diamond."
+        title: "D360° Photography Service",
+        description:"Top Quality and fastest D360° Photography Service in New York. Same Day Service for upto 700 diamond."
     },
     {
         image: require("../../assets/images/green.png"),

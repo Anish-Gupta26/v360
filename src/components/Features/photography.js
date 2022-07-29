@@ -10,7 +10,7 @@ const Phtography = () => {
     <>
     <Divider/>
     <div className='container'>
-        <h1 className='my-4 about'>V360° Photography Service</h1>
+        <h1 className='my-4 about'>D360° Photography Service</h1>
         <button type="button" className="btn btn-md btn-outline-primary"><Link to='/' style={{color:"black", textDecoration:"none"}}>Back</Link></button>
         <div className="privacy-flex-container row" >
                 <div className='privacy-flex-container-left col-lg-6'>
@@ -18,9 +18,9 @@ const Phtography = () => {
                 </div>
                 <div className='privacy-flex-container-right col-lg-6'>
                     <p> <ul>
-                        <li>Top Quality and fastest V360° Photography Service in New York.</li>
+                        <li>Top Quality and fastest D360° Photography Service in New York.</li>
                         <li>Same Day Service for upto 700 diamond</li>
-                        <li>Instant V360° loading with US based Google Cloud Platform.</li>
+                        <li>Instant D360° loading with US based Google Cloud Platform.</li>
                         <li>Ring, Pendent, Earring, Pendent photography</li>
                         <li>Malca-Amit and Brinks window pickup/drop-off </li>
                         <li>Work with all major courier Fedex, UPS, USPS and Ferrari </li>
@@ -30,8 +30,77 @@ const Phtography = () => {
                     </p>
                 </div>
         </div>
-        {/* <iframe title='anish' src='' class="responsive-iframe" scrolling="no" id="displayStone" frameborder="0"
-      style={{width: "100%",height: "70%",borderWidth: "0px"}}>
+
+      <div className="privacy-flex-container row frame-card" >
+            <div className='privacy-flex-container-left col-lg-6 justify-content-center'>
+                <iframe title='anish' src=" https://d360.tech/compare.html?d=196-B-B2B-58091&btn=0" class="responsive-iframe" scrolling="no" id="displayStone" frameBorder="0"
+                className='frame'>
+                </iframe>
+            </div>
+            <div className='privacy-flex-container-right col-lg-6 frame-content'>
+                <p> <ul>
+                    <li>Top Quality and fastest D360° Photography Service in New York.</li>
+                    <li>Same Day Service for upto 700 diamond</li>
+                    <li>Instant D360° loading with US based Google Cloud Platform.</li>
+                    </ul>
+                </p>
+            </div>
+      </div>
+
+      <div className="privacy-flex-container row frame-card" >
+            <div className='privacy-flex-container-left col-lg-6 justify-content-center'>
+                <iframe title='anish' src="https://d360.tech/view.html?d=ZZ-167-A-6421505808&btn=0" class="responsive-iframe" scrolling="no" id="displayStone" frameBorder="0"
+                className='frame'>
+                </iframe>
+            </div>
+            <div className='privacy-flex-container-right col-lg-6 frame-content'>
+                <p> <ul>
+                    <li>Top Quality and fastest D360° Photography Service in New York.</li>
+                    <li>Same Day Service for upto 700 diamond</li>
+                    <li>Instant D360° loading with US based Google Cloud Platform.</li>
+                    </ul>
+                </p>
+            </div>
+      </div>
+
+      <div className="privacy-flex-container row frame-card" >
+            <div className='privacy-flex-container-left col-lg-6 justify-content-center'>
+                <iframe title='anish' src="https://d360.tech/compare.html?d=ZZ-81-C-RING-3&btn=0" class="responsive-iframe" scrolling="no" id="displayStone" frameBorder="0"
+                className='frame'>
+                </iframe>
+            </div>
+            <div className='privacy-flex-container-right col-lg-6 frame-content'>
+                <p> <ul>
+                    <li>Top Quality and fastest D360° Photography Service in New York.</li>
+                    <li>Same Day Service for upto 700 diamond</li>
+                    <li>Instant D360° loading with US based Google Cloud Platform.</li>
+                    </ul>
+                </p>
+            </div>
+      </div>
+
+      <div className="privacy-flex-container row frame-card" >
+            <div className='privacy-flex-container-left col-lg-6 justify-content-center'>
+                <iframe title='anish' src="https://d360.tech/compare.html?d=196-B-B2B-58113&btn=0" class="responsive-iframe" scrolling="no" id="displayStone" frameBorder="0"
+                className='frame'>
+                </iframe>
+            </div>
+            <div className='privacy-flex-container-right col-lg-6 frame-content'>
+                <p> <ul>
+                    <li>Top Quality and fastest D360° Photography Service in New York.</li>
+                    <li>Same Day Service for upto 700 diamond</li>
+                    <li>Instant D360° loading with US based Google Cloud Platform.</li>
+                    </ul>
+                </p>
+            </div>
+      </div>
+
+      {/* <iframe title='anish' src="https://d360.tech/compare.html?d=196-B-B2B-58091,196-B-B2B-58113" class="responsive-iframe" scrolling="no" id="displayStone" frameborder="0"
+      style={{width: "100%",height: "97%",borderWidth: "0px"}}>
+      </iframe> */}
+     
+      {/* <iframe title='anish' src="https://d360.tech/compare.html?d=114-B-CE2000068" class="responsive-iframe" scrolling="no" id="displayStone" frameBorder="0"
+      className='frame'>
       </iframe> */}
         <div style={{marginTop:"50px"}}><SocialMedia/></div>
         <Footer/>

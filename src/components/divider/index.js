@@ -1,6 +1,6 @@
 import React from 'react'
 import './divider.css'
-
+//4 color line divider component
 const Divider = () => {
   return (
     <div className='divider'>
