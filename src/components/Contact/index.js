@@ -18,50 +18,7 @@ const Contact = () => {
     >
       <div className="flexi-item-left">
         <div className="contact-form-wrapper d-flex justify-content-center">
-          <form
-            action="https://formsubmit.co/sales@d360.tech"
-            method="POST"
-            className="contact-form"
-          >
-            <h1 className="title">Contact us</h1>
-            <p className="description text-center">
-              Feel free to contact us if you need any assistance.
-              <br />
-              Ph: +1 646-598-7690
-              <br />
-              email: sales@d360.tech
-            </p>
-            <div>
-              <input
-                type="text"
-                className="form-control rounded border-white mb-3 form-input"
-                id="name"
-                placeholder="Name"
-                required
-              />
-            </div>
-            <div>
-              <input
-                type="email"
-                className="form-control rounded border-white mb-3 form-input"
-                placeholder="Email"
-                required
-              />
-            </div>
-            <div>
-              <textarea
-                id="message"
-                className="form-control rounded border-white mb-3 form-text-area"
-                rows="5"
-                cols="30"
-                placeholder="Message"
-                required
-              ></textarea>
-            </div>
-            <div className="submit-button-wrapper">
-              <input type="submit" value="Send" />
-            </div>
-          </form>
+          <iframe title='contact' src="https://docs.google.com/forms/d/e/1FAIpQLSfeEOKTUV62-ud31306W7yCpkYo178cCnfuZMkkVqErr3gm7A/viewform?embedded=true" width="450" height="540" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
         </div>
       </div>
       <div className='flexi-item-right data-aos="zoom-in"  data-aos-duration="1500"'>

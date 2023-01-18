@@ -95,6 +95,38 @@ const Phtography = () => {
             </div>
       </div>
 
+      <div className="privacy-flex-container row frame-card" >
+            <div className='privacy-flex-container-left col-lg-6 justify-content-center'>
+                <iframe title='anish' src="https://d360.tech/view.html?d=114-G-6G-27813AC5-33-7&btn=0" class="responsive-iframe" scrolling="no" id="displayStone" frameBorder="0"
+                className='frame special'>
+                </iframe>
+            </div>
+            <div className='privacy-flex-container-right col-lg-6 frame-content'>
+                <p> <ul>
+                    <li>Top Quality and fastest D360° Photography Service in New York.</li>
+                    <li>Same Day Service for upto 700 diamond</li>
+                    <li>Instant D360° loading with US based Google Cloud Platform.</li>
+                    </ul>
+                </p>
+            </div>
+      </div>
+
+      <div className="privacy-flex-container row frame-card" >
+            <div className='privacy-flex-container-left col-lg-6 justify-content-center'>
+                <iframe title='anish' src="https://d360.tech/view.html?d=114-G-6G-49575AB77-26-3&btn=0" class="responsive-iframe" scrolling="no" id="displayStone" frameBorder="0"
+                className='frame special'>
+                </iframe>
+            </div>
+            <div className='privacy-flex-container-right col-lg-6 frame-content'>
+                <p> <ul>
+                    <li>Top Quality and fastest D360° Photography Service in New York.</li>
+                    <li>Same Day Service for upto 700 diamond</li>
+                    <li>Instant D360° loading with US based Google Cloud Platform.</li>
+                    </ul>
+                </p>
+            </div>
+      </div>
+
       {/* <iframe title='anish' src="https://d360.tech/compare.html?d=196-B-B2B-58091,196-B-B2B-58113" class="responsive-iframe" scrolling="no" id="displayStone" frameborder="0"
       style={{width: "100%",height: "97%",borderWidth: "0px"}}>
       </iframe> */}
